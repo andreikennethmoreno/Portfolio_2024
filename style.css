@@ -15,8 +15,10 @@
   .navbar-brand:hover,  .nav-link:hover, .dropdown-item:hover {
     color:#147efb;
   }
-  
-  
+  #navbar > nav > div > button {
+    margin-bottom: 1rem;
+  }
+ 
   /*Hero*/
   .off-white {
     background-color: #f9f9f9;
