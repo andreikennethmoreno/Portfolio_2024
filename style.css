@@ -15,9 +15,7 @@
   .navbar-brand:hover,  .nav-link:hover, .dropdown-item:hover {
     color:#147efb;
   }
-  #navbar > nav > div > button {
-    margin-bottom: 1rem;
-  }
+
  
   /*Hero*/
   .off-white {
@@ -116,6 +114,11 @@
     
   }
   @media (max-width:992px) {
+       #navbar > nav > div > button {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    
     
     .main img {
       height: 150px !important;
