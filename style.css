@@ -1,0 +1,243 @@
+/*Navbar*/
+.nav-item, .navbar{
+  background-color: white !important;
+  }
+  
+  #logo {
+    margin-left: 30px;
+    font-weight: bold ;
+  }
+  .nav-item, .dropdown-item {
+    padding-left: 30px;      
+    font-size: 18px;
+    font-weight: bold ;
+  }
+
+  .navbar-brand:hover,  .nav-link:hover, .dropdown-item:hover {
+    color:#147efb;
+  }
+
+ 
+  /*Hero*/
+  .off-white {
+    background-color: #f9f9f9;
+  }
+
+  #hero-img {
+    border: 3px solid black;
+    width: 350px;
+    height: 350px;
+    background-color: coral;
+    background-image: url('./img/dum-prof1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: randomShape 12s infinite alternate;
+  }
+  
+  @keyframes randomShape {
+    0% {
+      border-radius: 50% 50% 50% 50%; /* Circle */
+    }
+    25% {
+      border-radius: 30% 70% 50% 50%; /* Randomized rounded shape */
+    }
+    50% {
+      border-radius: 70% 30% 50% 50%; /* Another randomized shape */
+    }
+    75% {
+      border-radius: 50% 50% 30% 70%; /* Yet another randomized shape */
+    }
+    100% {
+      border-radius: 50% 50% 50% 50%; /* Back to circle */
+    }
+  }
+  .h1 {
+    font-size: 3.5rem;
+    line-height: 1.3 !important;
+  }
+  #hero > div{
+    padding-top: 7.5rem; 
+  }
+
+  .app {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+  }
+
+
+
+  .icon{
+    fill: #000; 
+    height: 35px; 
+  }
+  
+  .icon:hover {
+    fill: #147efb;
+  } 
+
+  @media (max-width:768px) {
+    #hero-img {
+      margin-top: -3rem;
+     
+    }
+    .h-icon {
+      text-align: center;
+      margin-top: -2rem;
+    }
+    .h-link {
+      justify-content: center !important;
+    }
+    .h1 {
+      margin-top: 5rem;
+      font-size:2.4em;
+      line-height: 1 !important;
+    }
+    
+    .about{
+      padding-top: 20rem;
+      text-align: center !important;
+    }
+    .contact {
+      margin-top: -1rem !important;
+    }
+    
+    
+  }
+  @media (max-width:576px) {
+    #hero-img {
+      width: 250px;
+      height: 250px;
+      
+    }
+    
+    
+  }
+  @media (max-width:992px) {
+    #navbar > nav > div > button {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .main img {
+      height: 150px !important;
+      width: auto;
+    }
+    .main svg {
+      height: 150px !important;
+      width: auto;
+    }
+    .about-pic>img {
+      display: flex; text-align: center; justify-content: center; align-items: center;
+      margin-left: .2rem !important;
+    }
+
+    .main {
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      z-index: 1;
+      margin-top: -8rem;
+      
+    }
+   
+    
+    
+  }
+
+  /*About*/
+  .about-def {
+    margin-right: -70px;
+    
+  }
+  .fs-5 {
+    font-weight: 350;
+    font-size: 18px !important;
+    color:rgb(88, 88, 88);
+  }
+  .fs-6 {
+    font-weight: 600;
+    font-size: 18px !important;
+  }
+  .title {
+    color: #147efb;
+  }
+  .about-pic img {
+    border-radius: 40px;
+    margin-left: .2rem !important;
+  }
+
+  .text {
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    fill: #111;
+    z-index: 1;
+  }
+
+  #rotatingText {
+    animation-name: rotate-circle;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rotate-circle {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+
+  .main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    z-index: 1;
+    margin-top: -8rem;
+
+    
+  }
+
+  .main img {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  /*Portfolio*/
+  .card {
+    border: none;
+  }
+  .round {
+    border-radius: 30px;
+    border: 2px solid black;
+  }
+  .plink {
+    color: black !important;
+  }
+  .plink:hover{
+    color: #1480fa !important;
+  }
+  
+  /*Contact*/
+  .pcon {
+    margin-bottom: 0.3rem;
+  }
+
+  /*Footer*/
+
+  
+  #footer {
+    background-color:#2D2E32;
+    height: 150px;
+    margin-bottom: -100px;
+   
+  }
+  .buttonp{
+    color: black !important;
+  }
